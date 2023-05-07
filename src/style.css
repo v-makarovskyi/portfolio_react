@@ -23,7 +23,8 @@ html {
 }
 
 .navbar {
-  position: fixed !important;
+  
+ /*  position: fixed !important; */
   transition: all 0.3s ease-in-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
@@ -143,4 +144,55 @@ html {
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+}
+
+/* Home section */
+.home {
+  height: 60vh;
+  background: teal;
+}
+
+/* Footer block */
+.footer {
+  background-color: rgb(10,4,22);
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important;
+}
+
+.footer-copywright {
+  text-align: center !important;
+}
+
+.footer-body {
+  z-index: 1;
+  text-align: center !important;
+}
+
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center !important;
+  }
+  .footer-body {
+    text-align: center !important;
+  }
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: white !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.footer-icons {
+  padding: 0 !important;
+  list-style: none;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.footer-icons .social-icons {
+  margin-right: 10px;
 }
