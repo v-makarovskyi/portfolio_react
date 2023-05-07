@@ -1,11 +1,27 @@
 import { useState, useEffect } from 'react';
+import { 
+  BrowserRouter as Router, 
+  Routes, 
+  Route,
+  Navigate
+} from 'react-router-dom';
+import './style.css'
 import './App.css';
+import NavBar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './Home';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
-    <div className="App">
-      App
+    <Router>
+      <div className="App">
+      <NavBar />
+      <Home />
+      <Footer />
     </div>
+    </Router>
+    
   );
 }
 
