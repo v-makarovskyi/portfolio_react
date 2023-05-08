@@ -50,14 +50,14 @@ export default function Home2() {
               </i>
               такие как{" "}
               <i>
-                <b className="purple">React.js</b> и
+                <b className="purple">React.js</b> и {' '}
                 <b className="purple">Next.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvatar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src='https://pictures.pibig.info/uploads/posts/2023-04/thumbs/1681131471_pictures-pibig-info-p-programmist-risunok-pinterest-38.png' className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
