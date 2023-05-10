@@ -31,7 +31,7 @@ export default function AboutCard() {
            Стремитесь создавать вещи, которые меняют жизнь к лучшему!{' '}
           </p>
           <footer className="blockquote-footer">
-            Не знаю кто, сказал, но согласен :) 
+            Не знаю, кто сказал, но согласен :) 
           </footer>
         </blockquote>
       </Card.Body>
