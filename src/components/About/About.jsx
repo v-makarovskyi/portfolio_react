@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import AboutCard from "./AboutCard";
 import Techstack from "./Techstack";
 import ToolStack from "./Toolstack";
+import Github from "./Github";
 
 export default function About() {
   return (
@@ -39,6 +40,7 @@ export default function About() {
       <Techstack />
       <h1><strong className="purple">Инструменты,</strong> которые я использую</h1>
       <ToolStack />
+      <Github />
       </Container>
      
     </Container>
