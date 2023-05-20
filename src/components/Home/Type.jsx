@@ -7,8 +7,9 @@ export default function Type() {
             options={{
                 strings: [
                     'FrontEnd разработчик',
-                    'Специалист машинного обучения',
+                    'HTML5 & CSS3 & native JS',
                     'MERN stack разработчик',
+                    'ReactJs & Redux/Redux Toolkit',
                     'Участник проектов с открытым исходным кодом'
                 ],
                 autoStart: true,
