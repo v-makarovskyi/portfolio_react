@@ -134,6 +134,9 @@ button:focus {
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+  .navbar-brand h2 {
+    font-size: 0.9em;
+  }
 }
  
  .navbar-brand {
