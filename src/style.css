@@ -40,7 +40,27 @@ button:focus {
   opacity: 0;
 }
 
-/* Navbar section */
+/***************************** ScrollBar ***********************************/
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d1950;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(178, 121, 216, 0.959);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(222, 130, 235, 0.911);
+  border-radius: 12px;
+}
+
+
+/***************************** Navbar section ***********************************/
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-in-out 0s !important;
