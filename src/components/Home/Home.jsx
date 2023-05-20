@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
+import home_pic from '../../Assets/home_pic.png'
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -29,7 +29,7 @@ export default function Home() {
             </Col>
             <Col md={4} style={{ paddingBottom: "20px" }}>
               <img
-                src="https://kartinki.pibig.info/uploads/posts/2023-04/thumbs/1680572453_kartinki-pibig-info-p-kartinka-programmista-risunok-arti-52.png"
+                src={home_pic}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
