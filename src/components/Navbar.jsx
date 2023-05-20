@@ -37,7 +37,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} alt="brand" className="img-fluid logo" />
+          {/* <img src={logo} alt="brand" className="img-fluid logo" /> */}
+          <h2 className="purple" style={{fontWeight:'700'}}>makarovskyi.v@gmail.com</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -77,11 +78,11 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Резюме
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+           {/*  <Nav.Item>
               <Nav.Link as={Link} to="/blog" onClick={() => setExpand(false)}>
                 <ImBlog style={{ marginBottom: "2px" }} /> Блог
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/v-makarovskyi/portfolio_react"
