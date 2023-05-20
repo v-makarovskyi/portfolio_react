@@ -5,6 +5,8 @@ import Particle from '../Particle'
 import chat from '../../Assets/Projects/chat.png'
 import sushci from '../../Assets/Projects/suschi.png'
 import travel_blog from '../../Assets/Projects/travel_blog.png'
+import culinary from '../../Assets/Projects/culinary.png'
+import admin_panel from '../../Assets/Projects/admin_panel.png'
 
 export default function Projects() {
   return (
@@ -22,8 +24,8 @@ export default function Projects() {
                     <ProjectCard
                         imgPath={chat}
                         isBlog={false}
-                        title='Python Real Time Chat Application with GUI interface'
-                        description='I used Tkinter and the Socket and Threading modules from the standard Python library.'
+                        title='Python чат в реальном времени (GUI)'
+                        description='Я использовал Tkinter и модули Socket и Threading из стандартной библиотеки Python.'
                         ghLink='https://github.com/v-makarovskyi/python_chat_app'
                     />
                 </Col>
@@ -32,7 +34,7 @@ export default function Projects() {
                         imgPath={sushci}
                         isBlog={false}
                         title='Sushi-Shop'
-                        description='I created a full-fledged online store for sushi and rolls. This project uses the MERN stack + JWT.'
+                        description='Полноценный интернет-магазин суши и роллов. В этом проекте используется стек MERN + JWT.'
                         ghLink='https://github.com/v-makarovskyi/Sushi-Shop'
                     />
                 </Col>
@@ -40,8 +42,26 @@ export default function Projects() {
                     <ProjectCard
                         imgPath={travel_blog}
                         isBlog={false}
-                        title='Travel blog application'
-                        description='Travel blog application. The project is written using DRF and PostgreSQL on the backend and react/redux on the frontend.'
+                        title='Travel blog приложение'
+                        description='Проект написан с использованием DRF и PostgreSQL на бэкенде и react/redux на фронтенде.'
+                        ghLink='https://github.com/v-makarovskyi/travel_blog_dfr_client'
+                    />
+                </Col>
+                <Col md={4} className='project-card'>
+                    <ProjectCard
+                        imgPath={admin_panel}
+                        isBlog={false}
+                        title='Универсальная админпанель'
+                        description='Это приложение представляет собой универсальную панель администратора для приложений react. Оно позволяет настраивать необходимые разделы в боковой панели для вашего удобства, а также переключаться между светлым и темным режимами отображения.'
+                        ghLink='https://github.com/v-makarovskyi/travel_blog_dfr_client'
+                    />
+                </Col>
+                <Col md={4} className='project-card'>
+                    <ProjectCard
+                        imgPath={culinary}
+                        isBlog={false}
+                        title='Кулинарный блог'
+                        description='Проект представляет собой блог о еде, сделанный на Django. Реализован вывод категорий постов, отдельного поста, создание и вывод комментариев для каждой записи.'
                         ghLink='https://github.com/v-makarovskyi/travel_blog_dfr_client'
                     />
                 </Col>
